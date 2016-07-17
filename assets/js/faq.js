@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$(".renters").hide();
 	$(".about").hide();
 
-	$(".ownersBtn").toggleClass("btn-primary");
+	$(".ownersBtn").toggleClass("btn-danger");
 	
 	$("#currentView").addClass("ownersView");
 
@@ -21,15 +21,15 @@ $(document).ready(function() {
 			$(".renters").hide();
 			$(".about").hide();
 
-			if(!$(".rentersBtn").hasClass("btn-primary")) {
-				$(".rentersBtn").addClass("btn-primary");
+			if(!$(".rentersBtn").hasClass("btn-danger")) {
+				$(".rentersBtn").addClass("btn-danger");
 			}
 
-			if(!$(".aboutBtn").hasClass("btn-primary")) {
-				$(".aboutBtn").addClass("btn-primary");
+			if(!$(".aboutBtn").hasClass("btn-danger")) {
+				$(".aboutBtn").addClass("btn-danger");
 			}
 
-			$(".ownersBtn").removeClass("btn-primary");
+			$(".ownersBtn").removeClass("btn-danger");
 		}
 	});
 
@@ -45,15 +45,15 @@ $(document).ready(function() {
 			$(".owners").hide();
 			$(".about").hide();
 
-			if(!$(".ownersBtn").hasClass("btn-primary")) {
-				$(".ownersBtn").addClass("btn-primary");
+			if(!$(".ownersBtn").hasClass("btn-danger")) {
+				$(".ownersBtn").addClass("btn-danger");
 			}
 
-			if(!$(".aboutBtn").hasClass("btn-primary")) {
-				$(".aboutBtn").addClass("btn-primary");
+			if(!$(".aboutBtn").hasClass("btn-danger")) {
+				$(".aboutBtn").addClass("btn-danger");
 			}
 
-			$(".rentersBtn").removeClass("btn-primary");
+			$(".rentersBtn").removeClass("btn-danger");
 		}
 	});
 
@@ -69,15 +69,15 @@ $(document).ready(function() {
 			$(".owners").hide();
 			$(".renters").hide();
 
-			if(!$(".ownersBtn").hasClass("btn-primary")) {
-				$(".ownersBtn").addClass("btn-primary");
+			if(!$(".ownersBtn").hasClass("btn-danger")) {
+				$(".ownersBtn").addClass("btn-danger");
 			}
 
-			if(!$(".rentersBtn").hasClass("btn-primary")) {
-				$(".rentersBtn").addClass("btn-primary");
+			if(!$(".rentersBtn").hasClass("btn-danger")) {
+				$(".rentersBtn").addClass("btn-danger");
 			}
 
-			$(".aboutBtn").removeClass("btn-primary");
+			$(".aboutBtn").removeClass("btn-danger");
 		}
 	});
 
