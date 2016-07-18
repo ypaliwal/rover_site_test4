@@ -35,6 +35,8 @@
     color: #bc515e; }
   .sharingText .formTop {
     margin-top: 35px; }
+    .sharingText .formTop .red {
+      padding-left: 0px; }
   .sharingText .formBar {
     width: 100%;
     height: 5px;
