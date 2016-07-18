@@ -1,0 +1,59 @@
+.topImg {
+  /*background: #253340 url("../images/background/doorhandle_dark.jpg") no-repeat 50% top;*/
+  	/*-webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;*/
+  background: url("../images/background/doorhandle_dark.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.referral .topImgText {
+  padding-top: 160px;
+  padding-bottom: 80px;
+  color: white;
+  text-shadow: 1px 1px #999; }
+
+.sharingText {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  .sharingText p {
+    font-size: 18px; }
+  .sharingText .social i {
+    width: 20px;
+    height: 20px; }
+  .sharingText .border {
+    border: solid;
+    padding: 5px;
+    border-width: 100%;
+    background-color: #ddd;
+    border-radius: 8px; }
+  .sharingText .red {
+    font-weight: 500;
+    color: #bc515e; }
+  .sharingText .formTop {
+    margin-top: 35px; }
+  .sharingText .formBar {
+    width: 100%;
+    height: 5px;
+    background-color: #bc515e; }
+  .sharingText .theForm {
+    margin-top: 30px; }
+    .sharingText .theForm .formInput {
+      /*margin-left: 40px;*/
+      border: none;
+      border-bottom: solid 2px #c9c9c9;
+      transition: border 0.3s; }
+    .sharingText .theForm .formInput:focus {
+      outline-width: 0;
+      border-bottom: solid 2px #bc515e; }
+    .sharingText .theForm .text-left {
+      padding-left: 0px; }
+
+@media (max-width: 767px) {
+  .referral .topImgText {
+    padding-top: 100px; } }
+
+/*# sourceMappingURL=styles2.css.map */
