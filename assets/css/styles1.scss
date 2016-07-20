@@ -2915,6 +2915,10 @@ select {
     margin: auto;
     margin-bottom: 40px !important;
   }
+
+  h3 {
+    color: rgb(68,68,68)
+  }
 }
 
 
@@ -2932,6 +2936,10 @@ select {
   /*background-color: blue;*/
 }
 
+#logo {
+  max-width: 160px;
+  margin-top: -9px;
+}
 
 
 
@@ -2978,6 +2986,15 @@ select {
 
   #header {
     background-color: #353738;
+  }
+
+  #logo {
+    margin-top: 3px;
+  }
+
+  #navbarToggle {
+    margin-top: 11px;
+    max-width: 20px;  
   }
 
 }

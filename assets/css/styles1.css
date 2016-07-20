@@ -2817,6 +2817,8 @@ select {
     position: relative;
     margin: auto;
     margin-bottom: 40px !important; }
+  .videos h3 {
+    color: #444444; }
 
 /*======== FAQ ==========*/
 .btnGroup {
@@ -2826,6 +2828,10 @@ select {
 
 .faqBtn:hover {
   /*background-color: blue;*/ }
+
+#logo {
+  max-width: 160px;
+  margin-top: -9px; }
 
 @media (max-width: 767px) {
   #hwtopClose {
@@ -2846,7 +2852,14 @@ select {
     margin-bottom: 12px; }
 
   #header {
-    background-color: #353738; } }
+    background-color: #353738; }
+
+  #logo {
+    margin-top: 3px; }
+
+  #navbarToggle {
+    margin-top: 11px;
+    max-width: 20px; } }
 @media (min-width: 768px) {
   #community .content {
     height: 380px;
