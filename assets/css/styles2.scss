@@ -91,9 +91,43 @@
 			padding-top: 100px;
 		}	
 	}
-	
 }
 
+.sendBtn {
+	color: #fff;
+	background-color: rgb(188,81,94);
+	border-radius: 10px;
+	width: 16%;
+	margin-left: 42%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.belowSendBtn {
+	width: 60%;
+}
+
+@media (max-width: 992px) {
+	.theForm {
+		p {
+			text-align: center;	
+			padding-right: 0px;
+		}
+
+		input {
+			text-align: center;	
+		}
+
+		.sm-margin {
+			margin-top: 20px;
+		}
+	}
+
+	.sendBtn {
+		width: 40%;
+		margin-left: 30%;
+	}
+}
 
 
 
