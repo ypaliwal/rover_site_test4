@@ -2500,7 +2500,7 @@ select {
     padding-top: 200px; }
 
   .promo.section .intro {
-    margin-bottom: 45px; }
+    margin-bottom: 25px; }
 
   .promo .btn-link {
     margin-top: 15px; }
@@ -2832,6 +2832,11 @@ select {
 #logo {
   max-width: 160px;
   margin-top: -9px; }
+
+/*======== HOME: PROMO ==========*/
+.promo .belowIntro {
+  margin-top: 20px;
+  margin-bottom: 0px; }
 
 @media (max-width: 767px) {
   #hwtopClose {
