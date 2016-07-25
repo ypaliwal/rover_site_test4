@@ -11,8 +11,8 @@
   background-size: cover; }
 
 .referral .topImgText {
-  padding-top: 160px;
-  padding-bottom: 80px;
+  padding-top: 220px;
+  padding-bottom: 120px;
   color: white;
   text-shadow: 1px 1px #999; }
 
@@ -137,6 +137,9 @@
     max-width: 80%;
     margin-left: 10%;
     padding-top: 30px; } }
+@media (min-width: 992px) {
+  .topImg {
+    background-position-y: -320px; } }
 .row {
   margin-left: 0px; }
 

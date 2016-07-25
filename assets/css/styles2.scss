@@ -12,12 +12,14 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+
 }
 
 .referral {
 	.topImgText {
-		padding-top: 160px;
-		padding-bottom: 80px;
+		padding-top: 220px;
+		padding-bottom: 120px;
 		color: white;
 
 		text-shadow: 1px 1px #999;
@@ -227,7 +229,9 @@
 }
 
 @media (min-width: 992px) {
-
+	.topImg {
+		background-position-y: -320px;
+	}
 }
 
 .row {
