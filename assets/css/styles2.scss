@@ -136,7 +136,7 @@
 	padding-bottom: 40px;
 	background-color: #e2e2e2;
 
-	.text {
+	.textPadding {
 		padding-top: 50px;
 	}
 
@@ -144,18 +144,18 @@
 		color: #bc515e;
 	}
 
-	.spacing2 {
-		width: 20px;
-		height: 17px;
+	.text1 {
+		font-weight: 400;
 	}
 
-	.smaller {
-		font-weight: 400;
+	.freeParkingImg {
+		max-width: 100%;
+
 	}
 }
 
 .referredDownload {
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 	background-color: rgb(188,81,94);
 
 	.row {
@@ -186,7 +186,7 @@
 	}
 }
 
-
+/* === MEDIA QUERIES === */
 
 @media (max-width: 767px) {
 	.referral {
@@ -216,16 +216,22 @@
 		width: 40%;
 		margin-left: 30%;
 	}
+
+	.referredMain {
+		.freeParkingImg {
+			max-width: 80%;
+			margin-left: 10%;
+			padding-top: 30px;
+		}
+	}
 }
 
 @media (min-width: 992px) {
-	.freeParkingImg {
-		/*padding: 100px 20px 20px 20px;*/
-		display: block;
-		margin: auto;
 
-		max-width: 100%;
-	}
+}
+
+.row {
+	margin-left: 0px;
 }
 
 
