@@ -1,29 +1,5 @@
-
-
-.topImg {
-	/*background: #253340 url("../images/background/doorhandle_dark.jpg") no-repeat 50% top;*/
-	/*-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
-
-    background: url("../images/background/doorhandle_dark.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-
-}
-
-.referral {
-	.topImgText {
-		padding-top: 220px;
-		padding-bottom: 120px;
-		color: white;
-
-		text-shadow: 1px 1px #999;
-	}
+.row {
+	margin-left: 0px;
 }
 
 .howWorkVideo {
@@ -137,9 +113,11 @@
 	padding-top: 40px;
 	padding-bottom: 40px;
 	background-color: #e2e2e2;
+	border: solid;
+	margin-top: 40px;
 
 	.textPadding {
-		padding-top: 50px;
+		padding-top: 20px;
 	}
 
 	.red {
@@ -152,8 +130,31 @@
 
 	.freeParkingImg {
 		max-width: 100%;
-
 	}
+}
+
+.referral {
+
+    background: url("../images/background/doorhandle_dark.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background-position-y: 20px;
+
+	.topImgText {
+		color: white;
+		text-shadow: 1px 1px #999;
+		/*padding-top: 120px;*/
+		padding-bottom: 60px;
+	}
+
+	.spacing1 {
+		width: 20px;
+		height: 40px;
+	}
+
 }
 
 .referredDownload {
@@ -167,7 +168,7 @@
 
 	p {
 		font-size: 25px;
-		font-weight: 100;
+		/*font-weight: 100;*/
 		color: white;
 	}
 
@@ -190,15 +191,72 @@
 
 /* === MEDIA QUERIES === */
 
-@media (max-width: 767px) {
-	.referral {
-		.topImgText {
-			padding-top: 100px;
-		}	
+
+
+
+@media (min-width: 300px) {
+
+	.referral h1 {
+		/*font-size: 36px !important;*/
+	}
+
+	.topImgText {
+		padding-top: 75px;
 	}
 }
 
-@media (max-width: 992px) {
+@media (max-width: 475px) {
+	.referral h1 {
+		font-size: 38px !important;
+	}
+}
+
+@media (max-width: 488px) {
+	.referral h1 {
+		font-size: 39px !important;
+	}
+
+	#sm-smallText {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 697px) {
+	.referral h1 {
+		font-size: 55px;
+	}
+
+	.spacing1 {
+		height: 60px !important;
+	}
+
+	#sm-smallText {
+		font-size: 20px;
+	}
+}
+
+
+@media (min-width: 697px) {
+	.referral h1 {
+		font-size: 65px !important;
+	}
+
+	.referral .topImgText {
+		padding-top: 80px;
+	}
+}
+
+@media (max-width: 767px) {
+	.referral {
+		background-position-y: -30px;
+	}
+
+	.spacing1 {
+		height: 85px !important;
+	}
+}
+
+@media (min-width: 767px) {
 	.theForm {
 		p {
 			text-align: center;	
@@ -220,24 +278,58 @@
 	}
 
 	.referredMain {
+		display: block;
+		margin-left: 20px;
+		margin-right: 20px;
+
 		.freeParkingImg {
 			max-width: 80%;
 			margin-left: 10%;
 			padding-top: 30px;
 		}
 	}
+
+	.referral .topImgText {
+		padding-top: 60px;
+		padding-bottom: 90px;
+	}
+
+	.referral h1 {
+		font-size: 77px;
+	}
+
+	.spacing1 {
+		height: 85px !important;
+	}
+
 }
+
 
 @media (min-width: 992px) {
 	.topImg {
-		background-position-y: -320px;
+		/*background-position-y: -120px;*/
+	}
+
+	.referral .topImgText {
+		padding-top: 185px;
+		padding-bottom: 120px;
+	}
+
+	.spacing1 {
+		height: 100px !important;
+	}
+
+	.referredMain {
+		max-width: 992px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.referral h1 {
+		font-size: 90px;
 	}
 }
-
-.row {
-	margin-left: 0px;
-}
-
 
 
 
