@@ -124,10 +124,12 @@
 
 	.text1 {
 		font-weight: 400;
+		font-size: 18px;
 	}
 
 	.freeParkingImg {
-		max-width: 100%;
+		max-width: 90%;
+		margin-left: 4%;
 	}
 }
 
@@ -254,8 +256,8 @@
 		height: 85px !important;
 	}
 
-	#sm-smallText {
-		font-size: 20px;
+	.referral h2 {
+		font-size: 20px !important;
 	}
 
 	.textPadding {
@@ -285,26 +287,17 @@
 	}
 
 	.referredMain {
-		/*display: block;
-		margin-left: 20px;
-		margin-right: 20px;*/
+
 		p {
 			text-align: left;
 		}
 
-		.textPadding {
-
-		}
-
 		.freeParkingImg {
-			max-width: 80%;
+			margin-left: 0%;
+			max-width: 110%;
 			padding-top: 0px;
 			padding-right: 0px;
-			/*margin-left: 10%;*/
-			/*padding-top: 30px;*/
 		}
-
-
 	}
 
 	.referral .topImgText {
@@ -317,7 +310,7 @@
 	}
 
 	.spacing1 {
-		height: 85px !important;
+		height: 100px !important;
 	}
 
 }
@@ -334,7 +327,7 @@
 	}
 
 	.spacing1 {
-		height: 100px !important;
+		height: 210px !important;
 	}
 
 	/*.referredMain {
@@ -346,6 +339,16 @@
 
 	.referral h1 {
 		font-size: 90px;
+	}
+
+	.referredMain .freeParkingImg {
+		max-width: 98%;
+	}
+}
+
+@media (min-width: 1100px) {
+	.referredMain .freeParkingImg {
+		max-width: 85%;
 	}
 }
 

@@ -78,9 +78,11 @@
   .referredMain .red {
     color: #bc515e; }
   .referredMain .text1 {
-    font-weight: 400; }
+    font-weight: 400;
+    font-size: 18px; }
   .referredMain .freeParkingImg {
-    max-width: 100%; }
+    max-width: 90%;
+    margin-left: 4%; }
 
 .referral {
   background: url("../images/background/doorhandle_dark.jpg") no-repeat center center fixed;
@@ -155,8 +157,8 @@
   .spacing1 {
     height: 85px !important; }
 
-  #sm-smallText {
-    font-size: 20px; }
+  .referral h2 {
+    font-size: 20px !important; }
 
   .textPadding {
     padding: 0% 10% 30px 10%; } }
@@ -173,18 +175,13 @@
     width: 40%;
     margin-left: 30%; }
 
-  .referredMain {
-    /*display: block;
-    margin-left: 20px;
-    margin-right: 20px;*/ }
-    .referredMain p {
-      text-align: left; }
-    .referredMain .freeParkingImg {
-      max-width: 80%;
-      padding-top: 0px;
-      padding-right: 0px;
-      /*margin-left: 10%;*/
-      /*padding-top: 30px;*/ }
+  .referredMain p {
+    text-align: left; }
+  .referredMain .freeParkingImg {
+    margin-left: 0%;
+    max-width: 110%;
+    padding-top: 0px;
+    padding-right: 0px; }
 
   .referral .topImgText {
     padding-top: 60px;
@@ -194,7 +191,7 @@
     font-size: 77px; }
 
   .spacing1 {
-    height: 85px !important; } }
+    height: 100px !important; } }
 @media (min-width: 992px) {
   .topImg {
     /*background-position-y: -120px;*/ }
@@ -204,7 +201,7 @@
     padding-bottom: 120px; }
 
   .spacing1 {
-    height: 100px !important; }
+    height: 210px !important; }
 
   /*.referredMain {
   	max-width: 992px;
@@ -213,6 +210,12 @@
   	margin-right: auto;
   }*/
   .referral h1 {
-    font-size: 90px; } }
+    font-size: 90px; }
+
+  .referredMain .freeParkingImg {
+    max-width: 98%; } }
+@media (min-width: 1100px) {
+  .referredMain .freeParkingImg {
+    max-width: 85%; } }
 
 /*# sourceMappingURL=styles2.css.map */
