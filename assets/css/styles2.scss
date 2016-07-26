@@ -113,12 +113,10 @@
 	padding-top: 40px;
 	padding-bottom: 40px;
 	background-color: #e2e2e2;
-	border: solid;
-	margin-top: 40px;
+	/*border: solid;*/
+	/*margin-top: 40px;*/
 
-	.textPadding {
-		padding-top: 20px;
-	}
+	
 
 	.red {
 		color: #bc515e;
@@ -189,10 +187,11 @@
 	}
 }
 
+
+
+
+
 /* === MEDIA QUERIES === */
-
-
-
 
 @media (min-width: 300px) {
 
@@ -254,6 +253,14 @@
 	.spacing1 {
 		height: 85px !important;
 	}
+
+	#sm-smallText {
+		font-size: 20px;
+	}
+
+	.textPadding {
+		padding: 0% 10% 30px 10%;
+	}
 }
 
 @media (min-width: 767px) {
@@ -278,15 +285,26 @@
 	}
 
 	.referredMain {
-		display: block;
+		/*display: block;
 		margin-left: 20px;
-		margin-right: 20px;
+		margin-right: 20px;*/
+		p {
+			text-align: left;
+		}
+
+		.textPadding {
+
+		}
 
 		.freeParkingImg {
 			max-width: 80%;
-			margin-left: 10%;
-			padding-top: 30px;
+			padding-top: 0px;
+			padding-right: 0px;
+			/*margin-left: 10%;*/
+			/*padding-top: 30px;*/
 		}
+
+
 	}
 
 	.referral .topImgText {
@@ -319,17 +337,19 @@
 		height: 100px !important;
 	}
 
-	.referredMain {
+	/*.referredMain {
 		max-width: 992px;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-	}
+	}*/
 
 	.referral h1 {
 		font-size: 90px;
 	}
 }
+
+
 
 
 
