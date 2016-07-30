@@ -141,7 +141,7 @@
     -o-background-size: cover;
     background-size: cover;
 
-    background-position-y: 20px;
+    /*background-position-y: 20px;*/
 
 	.topImgText {
 		color: white;
@@ -188,6 +188,44 @@
 		max-width: 135px;
 	}
 }
+
+.unsub {
+	button {
+		display: block;
+		margin: auto;
+
+		border-radius: 6px;
+    	border: 0;
+	    padding: 6px;
+	    padding-right: 13px;
+	    padding-left: 13px;
+	    background-color: #fff;
+	    color: #504d4d;
+	    font-weight: 300;
+	    font-size: 20px;
+	}
+
+	button:hover {
+		background-color: #ccc;
+	}
+
+	.unsubBtn {
+		background-color: #dc7581;
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -245,6 +283,7 @@
 	.referral .topImgText {
 		padding-top: 80px;
 	}
+
 }
 
 @media (max-width: 767px) {
@@ -343,6 +382,31 @@
 
 	.referredMain .freeParkingImg {
 		max-width: 98%;
+	}
+
+	.unsub {
+		padding-top: 80px;
+
+		.text {
+			padding-top: 60px;
+		}
+
+		
+	}
+
+
+}
+
+@media (max-width: 992px) {
+	.unsub {
+		.text {
+			padding-top: 30px;
+		}
+	}
+
+	.sadDog {
+		display: block;
+		margin: auto;
 	}
 }
 

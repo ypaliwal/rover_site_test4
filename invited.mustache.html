@@ -21,7 +21,7 @@
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="/assets/css/styles1.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/styles2.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/referral.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/assets/css/referral.css"> -->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -78,83 +78,81 @@
           </div>
         </div>
     </div>
+
+
+    <!-- ******HEADER****** --> 
+    <header id="header" class="header navbar-fixed-top" style="background-color: rgb(53,55,56)">  
+        <div class="container">
+            <a href="/index.html" class="navbar-brand">
+                <img src="/assets/images/logo.png" class="image-responsive"></img>
+            </a><!--//logo-->
+
+            <nav class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--//nav-toggle-->
+                </div><!--//navbar-header-->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item"><a id="how_works_btn" href="#">Why Rover?</a></li>
+                        <li class="active nav-item"><a href="https://9eqv.app.link/download" target="_blank">Download</a></li>
+                        <li class="nav-item nav-item-cta last"><a class="btn btn-cta btn-cta-secondary" href="https://9eqv.app.link/download" target="_blank">List Your Spot</a></li>
+                    </ul><!--//nav-->
+                </div><!--//navabr-collapse-->
+            </nav><!--//main-nav-->                     
+        </div><!--//container-->
+    </header><!--//header-->
     
     <!-- ******REFERRAL Section****** --> 
     <section class="topImg referral section has-bg-color">
         <div class="topImgText container text-center">
-                
-                <h1>INVITE FRIENDS, GIVE CREDIT, GET CREDIT</h1>
-                <h3>Give a $5 credit on us when you invite friends to use Rover!</h3>
-                <h3>Get a $5 credit when they park for the first time.</h3>
-
-            
-            
-        </div><!--//container-->        
-    </section><!--//faq-->
-
-    <section class="section has-bg-color">
-        <div class="container">
-            <!-- Form goes here -->
-            <div class="sharingText text-center">
-                
-                <div class="row">
-                    <p>Hi <span class="red">Yash</span>, share Rover with your friends by entering their emails below:</p>
-                    
-                    <br>
-                </div>
-
-                <!-- <div class="row formTop text-left">
-                    <p class="red col-md-2 col-md-offset-2">YOUR EMAIL:</p>
-                    <p class="col-md-3">y.paliwal92@gmail.com</p>
-                </div> -->
-
-                <div class="formBar"></div>
-
-                <form id="refFormInputs" method="post" action="http://roverparking.com/staging/invite.php">
-                    
-                    <input type="hidden" name="server" value="{{server}}" />
-                    <input type="hidden" name="ska" value="{{ska}}" />
-                    <input type="hidden" name="sk" value="{{sk}}" />
-
-                    <div class="theForm row">
-                        <p      class="col-md-2 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 red text-left">FRIEND'S EMAIL:</p>
-                        <input  class="col-md-3 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 formInput" type="text" placeholder="email address" name="emails[]">
-                    </div>
-                    <div class="theForm row">
-                        <p      class="col-md-2 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 red text-left">FRIEND'S EMAIL:</p>
-                        <input  class="col-md-3 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 formInput" type="text" placeholder="email address" name="emails[]">
-                    </div>
-                    <div class="theForm row">
-                        <p      class="col-md-2 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 red text-left">FRIEND'S EMAIL:</p>
-                        <input  class="col-md-3 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 formInput" type="text" placeholder="email address" name="emails[]">
-                    </div>
-                    <div class="theForm row">
-                        <p      class="col-md-2 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 red text-left">FRIEND'S EMAIL:</p>
-                        <input  class="col-md-3 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 formInput" type="text" placeholder="email address" name="emails[]">
-                    </div>
-
-                </form>
-
-                <div class="row">
-                    <br>
-                    <a class="addMore"><p>+ Invite More</p></a>
-                    <div class="sendBtn text-center">Send Invite</div>
-                    <br>
-                    <hr class="belowSendBtn">
-                </div>
-
-                <div class="row">
-                    <br>
-                    <p>Share this link with friends to invite them to join Rover:</p>
-                    <p class="border col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-1">http://invite.rover.co/SAFINAAZ3942</p>    
-                </div>
-
-                <ul class="social list-inline">
-                    <li><a href="https://twitter.com/roverparking" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com/roverparking"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/roverparking/"><i class="fa fa-instagram"></i></a></li>        
-                </ul>            
+            <div class="col-md-10 col-md-offset-1 col-sm-12 freeParkingText text-center">
+                <h1>Get FREE Parking</h1>
+                <!-- <div class="sm-hidden spacing1"></div> -->
+                <div style="width:20px;height:25px;"></div>
+                <h2>Here's your chance to unlock $5 in free parking from Rover.</h2>
+                <div class="spacing2"></div>
+                <h2 id="sm-smallText">The cool new mobile parking app that's sweeping the nation.</h2>
+                <!-- <h3>Now’s your chance to unlock $5 in FREE parking from Rover, the cool new mobile parking app that's sweeping the nation.</h3> -->
             </div>
+        </div>
+        
+    </section>
+
+    <section class="referredDownload section has-bg-color">
+        <div class="row text-center">
+            <p>DOWNLOAD NOW</p>
+            <span><img class="appDownload" src="/assets/images/referred/droid_badge.png" style="-webkit-filter: grayscale(100%);filter: grayscale(100%);"></span> <span><img class="appDownload1" src="/assets/images/referred/ios_badge.png"></span>.</p>
+            <p class="smaller">Use the code <span class="higherWeight">"{{code}}"</span> to get your free parking credits.</p>
+        </div>
+    </section>
+
+    <section class="referredMain section has-bg-color">
+        <div class="row">
+            <!-- <hr> -->
+            <div class="col-sm-6 col-sm-offset-1 textPadding text-center">
+                <p class="text1"><b>Rover lets you access hundreds of easy to find, inexpensive private parking spots throughout the city.</b>With just a few taps on your phone you can find and pay for parking. It’s that easy. Plus, If you’re running late, 1 more tap is all it takes to extend your stay for as long as you need.</p>
+            </div>
+
+            <div class="col-sm-4">
+                <img class="freeParkingImg" src="/assets/images/referred/phone_in_hand_cut.png">
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="howWorkVideo section has-bg-color">
+        <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 text-center">
+            <h3>How It Works</h3>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SJ9wc8qaldo" frameborder="0" allowfullscreen=""></iframe>
+            
+        </div>
         </div>
     </section>
     
@@ -246,7 +244,7 @@
     <script type="text/javascript" src="/assets/plugins/flexslider/jquery.flexslider-min.js"></script> 
     <script type="text/javascript" src="/assets/js/main.js"></script>
     <script type="text/javascript" src="/assets/js/faq.js"></script>
-    <script type="text/javascript" src="/staging/referral.js"></script>
+    
     <div id="headerHelper"></div>
 
     <!--Start of Tawk.to Script-->

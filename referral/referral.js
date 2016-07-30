@@ -10,6 +10,10 @@ $(document).ready(function() {
 	$(".addMore").click(function() {
 		$("#refFormInputs").append(addFormInputs);
 	});
+
+	$(".sendBtn").click(function() {
+		document.getElementById("refFormInputs").submit();
+	})
 	
 
 
