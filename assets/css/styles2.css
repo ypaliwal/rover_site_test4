@@ -127,14 +127,14 @@
   padding: 6px;
   padding-right: 13px;
   padding-left: 13px;
-  background-color: #fff;
+  background-color: #eaeaea;
   color: #504d4d;
   font-weight: 300;
   font-size: 20px; }
 .unsub button:hover {
-  background-color: #ccc; }
+  background-color: #e6d2d2; }
 .unsub .unsubBtn {
-  background-color: #dc7581;
+  /*background-color: #dc7581;*/
   padding-top: 35px;
   padding-bottom: 35px; }
 
